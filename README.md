@@ -1,5 +1,5 @@
 
-#Simple and cheap DIY arduino rc tricycle controlled by smartphone  
+# Simple and cheap DIY arduino rc tricycle controlled by smartphone  
 
 
 Arduino code for rc tricycle
@@ -12,7 +12,7 @@ video    	     https://www.youtube.com/watch?v=XjhdBfRUhjk
 Android App          http://ai2.appinventor.mit.edu/?galleryId=4613735615037440
 
 
-##Parts
+## Parts
 
 
 
@@ -42,7 +42,7 @@ Android App          http://ai2.appinventor.mit.edu/?galleryId=4613735615037440
 
 * (2) Made from a burned out electronic balast plastic box. Size 7x4 cm. / Feito de uma caixa plástica de reator eletrônico queimado. Tamanho 7x4 cm.
 
-![fork](pictures/parts/blank_slot_cover.jpg?raw=true "reactor")
+![fork](pictures/parts/reactor.jpg?raw=true "reactor")
 
 * (3) Same as item 1 with a hole of 3 mm diameter.  / Mesmo item que o 1 com um furo de 3mm de diâmetro.
 
@@ -50,3 +50,8 @@ Android App          http://ai2.appinventor.mit.edu/?galleryId=4613735615037440
 
 
 
+## Circuit
+
+![Circuit](pictures/doc/tricycle_bb.png?raw=true "circuit")
+
+![Schematic](pictures/doc/tricycle_sch.png?raw=true "schematic")
