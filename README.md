@@ -52,6 +52,6 @@ Android App          http://ai2.appinventor.mit.edu/?galleryId=4613735615037440
 
 ## Circuit
 
-![Circuit](pictures/doc/tricycle_bb.png?raw=true "circuit")
+![Circuit](doc/tricycle_bb.png?raw=true "circuit")
 
-![Schematic](pictures/doc/tricycle_sch.png?raw=true "schematic")
+![Schematic](doc/tricycle_sch.png?raw=true "schematic")
