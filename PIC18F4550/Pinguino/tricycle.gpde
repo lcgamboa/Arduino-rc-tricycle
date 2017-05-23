@@ -1,0 +1,847 @@
+[Block-1]
+self_id = 0x7fd8cac6db90
+from = []
+name = function
+constructor = [['label', 'loop'], ['syntax', '()']]
+position = (713, 20)
+basename = loop
+inside = []
+to = []
+nested = ['0x7fd8cbca86c8']
+
+[Block-2]
+self_id = 0x7fd8cbca86c8
+from = ['0x7fd8cac6db90']
+name = nested
+constructor = [['label', 'switch'], ['syntax', '('], ['space'], ['syntax', ')']]
+position = (725, 59)
+basename = switch
+inside = ['0x7fd8cbcac488']
+to = []
+nested = ['0x7fd8cbcca758']
+
+[Block-3]
+self_id = 0x7fd8cbcac488
+from = ['0x7fd8cbca86c8']
+name = output
+constructor = [['label', 'Serial.read'], ['syntax', '('], ['syntax', ')']]
+position = (1236, 286)
+basename = Serial_read
+inside = []
+to = []
+nested = []
+
+[Block-4]
+self_id = 0x7fd8cbcacb90
+from = []
+name = function
+constructor = [['label', 'setup'], ['syntax', '()']]
+position = (80, 238)
+basename = setup
+inside = []
+to = []
+nested = ['0x7fd8cbccbcf8']
+
+[Block-5]
+self_id = 0x7fd8cac66c20
+from = ['0x7fd8cac6f050']
+name = nested-second
+constructor = [['label', 'case'], ['syntax', '('], ['space'], ['syntax', '):']]
+position = (737, 539)
+basename = case
+inside = ['0x7fd8cac528c0']
+to = ['0x7fd8cac6bcb0']
+nested = ['0x7fd8cbcb8050']
+
+[Block-6]
+self_id = 0x7fd8cac528c0
+from = ['0x7fd8cac66c20']
+name = output
+constructor = [['spin_int', "'w'", -100, 100]]
+position = (840, 532)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-7]
+self_id = 0x7fd8cac6bcb0
+from = ['0x7fd8cac66c20']
+name = nested-second
+constructor = [['label', 'case'], ['syntax', '('], ['space'], ['syntax', '):']]
+position = (737, 725)
+basename = case
+inside = ['0x7fd8cac685a8']
+to = ['0x7fd8cbca6758']
+nested = ['0x7fd8cbcb1ef0']
+
+[Block-8]
+self_id = 0x7fd8cac685a8
+from = ['0x7fd8cac6bcb0']
+name = output
+constructor = [['spin_int', "'s'", -100, 100]]
+position = (840, 679)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-9]
+self_id = 0x7fd8cbca6758
+from = ['0x7fd8cac6bcb0']
+name = nested-second
+constructor = [['label', 'case'], ['syntax', '('], ['space'], ['syntax', '):']]
+position = (737, 911)
+basename = case
+inside = ['0x7fd8cac6c3b0']
+to = []
+nested = ['0x7fd8cac41290']
+
+[Block-10]
+self_id = 0x7fd8cac6c3b0
+from = ['0x7fd8cbca6758']
+name = output
+constructor = [['spin_int', "'r'", -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-11]
+self_id = 0x7fd8cac6f050
+from = ['0x7fd8cbcb4290']
+name = nested-second
+constructor = [['label', 'case'], ['syntax', '('], ['space'], ['syntax', '):']]
+position = (737, 392)
+basename = case
+inside = ['0x7fd8cac6fe18']
+to = ['0x7fd8cac66c20']
+nested = ['0x7fd8cac551b8']
+
+[Block-12]
+self_id = 0x7fd8cac6fe18
+from = ['0x7fd8cac6f050']
+name = output
+constructor = [['spin_int', "'q'", -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-13]
+self_id = 0x7fd8cbcb4290
+from = ['0x7fd8cbcca758']
+name = nested-second
+constructor = [['label', 'case'], ['syntax', '('], ['space'], ['syntax', '):']]
+position = (737, 245)
+basename = case
+inside = ['0x7fd8cbca6680']
+to = ['0x7fd8cac6f050']
+nested = ['0x7fd8cac5acf8']
+
+[Block-14]
+self_id = 0x7fd8cbca6680
+from = ['0x7fd8cbcb4290']
+name = output
+constructor = [['spin_int', "'a'", -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-15]
+self_id = 0x7fd8cbcca758
+from = ['0x7fd8cbca86c8']
+name = nested-second
+constructor = [['label', 'case'], ['syntax', '('], ['space'], ['syntax', '):']]
+position = (737, 98)
+basename = case
+inside = ['0x7fd8cbcbda28']
+to = ['0x7fd8cbcb4290']
+nested = ['0x7fd8cac137e8']
+
+[Block-16]
+self_id = 0x7fd8cbcbda28
+from = ['0x7fd8cbcca758']
+name = output
+constructor = [['spin_int', "'d'", -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-17]
+self_id = 0x7fd8cac72758
+from = []
+name = function
+constructor = [['label', 'global'], ['syntax', ' variables']]
+position = (81, 70)
+basename = global_vars
+inside = []
+to = []
+nested = ['0x7fd8cabda320']
+
+[Block-18]
+self_id = 0x7fd8cac742d8
+from = ['0x7fd8cac116c8']
+name = linear
+constructor = [['label', 'servo.setMaximumPulse'], ['syntax', '('], ['decorator', 'SERVO='], ['space'], ['syntax', ', '], ['decorator', ' '], ['decorator', 'MICROSEC='], ['space'], ['syntax', ')']]
+position = (92, 355)
+basename = Servo_setMaximumPulse
+inside = ['0x7fd8cac74f80', '0x7fd8cac778c0']
+to = ['0x7fd8cac48ea8']
+nested = []
+
+[Block-19]
+self_id = 0x7fd8cac74f80
+from = ['0x7fd8cac742d8']
+name = output
+constructor = [['spin_int', '0', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-20]
+self_id = 0x7fd8cac778c0
+from = ['0x7fd8cac742d8']
+name = output
+constructor = [['spin_int', '2200', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-21]
+self_id = 0x7fd8cac7a1b8
+from = ['0x7fd8cbca5998']
+name = linear
+constructor = [['label', 'break']]
+position = (749, 1028)
+basename = break_
+inside = []
+to = []
+nested = []
+
+[Block-22]
+self_id = 0x7fd8cac7a6c8
+from = ['0x7fd8cbcaad40']
+name = linear
+constructor = [['label', 'break']]
+position = (749, 842)
+basename = break_
+inside = []
+to = []
+nested = []
+
+[Block-23]
+self_id = 0x7fd8cac7ac20
+from = ['0x7fd8cac137e8']
+name = linear
+constructor = [['label', 'break']]
+position = (749, 176)
+basename = break_
+inside = []
+to = []
+nested = []
+
+[Block-24]
+self_id = 0x7fd8cac801b8
+from = ['0x7fd8cbcb8050']
+name = linear
+constructor = [['label', 'digitalWrite'], ['syntax', '('], ['space'], ['syntax', ', '], ['space'], ['syntax', ')']]
+position = (749, 617)
+basename = digitalWrite
+inside = ['0x7fd8cac80bd8', '0x7fd8cac82518']
+to = ['0x7fd8cac48950']
+nested = []
+
+[Block-25]
+self_id = 0x7fd8cac80bd8
+from = ['0x7fd8cac801b8']
+name = output
+constructor = [['spin_int', '23', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-26]
+self_id = 0x7fd8cac82518
+from = ['0x7fd8cac801b8']
+name = output
+constructor = [['spin_choice', 'LOW', ['HIGH', 'LOW']]]
+position = (0, 0)
+basename = choice-hl
+inside = []
+to = []
+nested = []
+
+[Block-27]
+self_id = 0x7fd8cac82e18
+from = ['0x7fd8cac89a70']
+name = linear
+constructor = [['label', 'digitalWrite'], ['syntax', '('], ['space'], ['syntax', ', '], ['space'], ['syntax', ')']]
+position = (92, 550)
+basename = digitalWrite
+inside = ['0x7fd8cac87830', '0x7fd8cac89170']
+to = ['0x7fd8cabd2488']
+nested = []
+
+[Block-28]
+self_id = 0x7fd8cac87830
+from = ['0x7fd8cac82e18']
+name = output
+constructor = [['spin_int', '23', -100, 100]]
+position = (249, 591)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-29]
+self_id = 0x7fd8cac89170
+from = ['0x7fd8cac82e18']
+name = output
+constructor = [['spin_choice', 'LOW', ['HIGH', 'LOW']]]
+position = (0, 0)
+basename = choice-hl
+inside = []
+to = []
+nested = []
+
+[Block-30]
+self_id = 0x7fd8cac89a70
+from = ['0x7fd8cbcc0d88']
+name = linear
+constructor = [['label', 'digitalWrite'], ['syntax', '('], ['space'], ['syntax', ', '], ['space'], ['syntax', ')']]
+position = (92, 511)
+basename = digitalWrite
+inside = ['0x7fd8cac0d488', '0x7fd8cac0dd88']
+to = ['0x7fd8cac82e18']
+nested = []
+
+[Block-31]
+self_id = 0x7fd8cac0d488
+from = ['0x7fd8cac89a70']
+name = output
+constructor = [['spin_int', '22', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-32]
+self_id = 0x7fd8cac0dd88
+from = ['0x7fd8cac89a70']
+name = output
+constructor = [['spin_choice', 'LOW', ['HIGH', 'LOW']]]
+position = (0, 0)
+basename = choice-hl
+inside = []
+to = []
+nested = []
+
+[Block-33]
+self_id = 0x7fd8cac116c8
+from = ['0x7fd8cbccbcf8']
+name = linear
+constructor = [['label', 'servo.attach'], ['syntax', '('], ['space'], ['syntax', ')']]
+position = (92, 316)
+basename = Servo_attach
+inside = ['0x7fd8cac11ea8']
+to = ['0x7fd8cac742d8']
+nested = []
+
+[Block-34]
+self_id = 0x7fd8cac11ea8
+from = ['0x7fd8cac116c8']
+name = output
+constructor = [['spin_int', '0', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-35]
+self_id = 0x7fd8cac137e8
+from = ['0x7fd8cbcca758']
+name = linear
+constructor = [['label', 'servo.write'], ['syntax', '('], ['decorator', 'SERVO='], ['space'], ['syntax', ', '], ['decorator', ' '], ['decorator', 'DEGREES='], ['space'], ['syntax', ')']]
+position = (749, 137)
+basename = Servo_write
+inside = ['0x7fd8cac5cef0', '0x7fd8cac5c878']
+to = ['0x7fd8cac7ac20']
+nested = []
+
+[Block-36]
+self_id = 0x7fd8cac5cef0
+from = ['0x7fd8cac137e8']
+name = output
+constructor = [['spin_int', '0', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-37]
+self_id = 0x7fd8cac5c878
+from = ['0x7fd8cac137e8']
+name = output
+constructor = [['spin_int', '140', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-38]
+self_id = 0x7fd8cac5acf8
+from = ['0x7fd8cbcb4290']
+name = linear
+constructor = [['label', 'servo.write'], ['syntax', '('], ['decorator', 'SERVO='], ['space'], ['syntax', ', '], ['decorator', ' '], ['decorator', 'DEGREES='], ['space'], ['syntax', ')']]
+position = (749, 284)
+basename = Servo_write
+inside = ['0x7fd8cac58560', '0x7fd8cac558c0']
+to = ['0x7fd8cac44ea8']
+nested = []
+
+[Block-39]
+self_id = 0x7fd8cac58560
+from = ['0x7fd8cac5acf8']
+name = output
+constructor = [['spin_int', '0', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-40]
+self_id = 0x7fd8cac558c0
+from = ['0x7fd8cac5acf8']
+name = output
+constructor = [['spin_int', '40', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-41]
+self_id = 0x7fd8cac551b8
+from = ['0x7fd8cac6f050']
+name = linear
+constructor = [['label', 'servo.write'], ['syntax', '('], ['decorator', 'SERVO='], ['space'], ['syntax', ', '], ['decorator', ' '], ['decorator', 'DEGREES='], ['space'], ['syntax', ')']]
+position = (749, 431)
+basename = Servo_write
+inside = ['0x7fd8cac4ec68', '0x7fd8cac4e3f8']
+to = ['0x7fd8cac483f8']
+nested = []
+
+[Block-42]
+self_id = 0x7fd8cac4ec68
+from = ['0x7fd8cac551b8']
+name = output
+constructor = [['spin_int', '0', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-43]
+self_id = 0x7fd8cac4e3f8
+from = ['0x7fd8cac551b8']
+name = output
+constructor = [['spin_int', 'centro', -100, 100]]
+position = (829, 598)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-44]
+self_id = 0x7fd8cbccbcf8
+from = ['0x7fd8cbcacb90']
+name = linear
+constructor = [['label', 'Serial.init'], ['syntax', '('], ['space'], ['syntax', ')']]
+position = (92, 277)
+basename = Serial_init
+inside = ['0x7fd8cbcca7a0']
+to = ['0x7fd8cac116c8']
+nested = []
+
+[Block-45]
+self_id = 0x7fd8cbcca7a0
+from = ['0x7fd8cbccbcf8']
+name = output
+constructor = [['spin_int', '9600', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-46]
+self_id = 0x7fd8cbcc7ab8
+from = ['0x7fd8cac48ea8']
+name = linear
+constructor = [['label', 'pinMode'], ['syntax', '('], ['space'], ['syntax', ', '], ['space'], ['syntax', ')']]
+position = (92, 433)
+basename = pinMode
+inside = ['0x7fd8cbcc48c0', '0x7fd8cbcc2128']
+to = ['0x7fd8cbcc0d88']
+nested = []
+
+[Block-47]
+self_id = 0x7fd8cbcc48c0
+from = ['0x7fd8cbcc7ab8']
+name = output
+constructor = [['spin_int', '22', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-48]
+self_id = 0x7fd8cbcc2128
+from = ['0x7fd8cbcc7ab8']
+name = output
+constructor = [['spin_choice', 'OUTPUT', ['INPUT', 'OUTPUT']]]
+position = (0, 0)
+basename = choice-io
+inside = []
+to = []
+nested = []
+
+[Block-49]
+self_id = 0x7fd8cbcc0d88
+from = ['0x7fd8cbcc7ab8']
+name = linear
+constructor = [['label', 'pinMode'], ['syntax', '('], ['space'], ['syntax', ', '], ['space'], ['syntax', ')']]
+position = (92, 472)
+basename = pinMode
+inside = ['0x7fd8cbcbd440', '0x7fd8cbcbb248']
+to = ['0x7fd8cac89a70']
+nested = []
+
+[Block-50]
+self_id = 0x7fd8cbcbd440
+from = ['0x7fd8cbcc0d88']
+name = output
+constructor = [['spin_int', '23', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-51]
+self_id = 0x7fd8cbcbb248
+from = ['0x7fd8cbcc0d88']
+name = output
+constructor = [['spin_choice', 'OUTPUT', ['INPUT', 'OUTPUT']]]
+position = (0, 0)
+basename = choice-io
+inside = []
+to = []
+nested = []
+
+[Block-52]
+self_id = 0x7fd8cbcb8050
+from = ['0x7fd8cac66c20']
+name = linear
+constructor = [['label', 'digitalWrite'], ['syntax', '('], ['space'], ['syntax', ', '], ['space'], ['syntax', ')']]
+position = (749, 578)
+basename = digitalWrite
+inside = ['0x7fd8cbcb6950', '0x7fd8cbcb4f80']
+to = ['0x7fd8cac801b8']
+nested = []
+
+[Block-53]
+self_id = 0x7fd8cbcb6950
+from = ['0x7fd8cbcb8050']
+name = output
+constructor = [['spin_int', '22', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-54]
+self_id = 0x7fd8cbcb4f80
+from = ['0x7fd8cbcb8050']
+name = output
+constructor = [['spin_choice', 'HIGH', ['HIGH', 'LOW']]]
+position = (0, 0)
+basename = choice-hl
+inside = []
+to = []
+nested = []
+
+[Block-55]
+self_id = 0x7fd8cbcb1ef0
+from = ['0x7fd8cac6bcb0']
+name = linear
+constructor = [['label', 'digitalWrite'], ['syntax', '('], ['space'], ['syntax', ', '], ['space'], ['syntax', ')']]
+position = (749, 764)
+basename = digitalWrite
+inside = ['0x7fd8cbcb0cf8', '0x7fd8cbcad758']
+to = ['0x7fd8cbcaad40']
+nested = []
+
+[Block-56]
+self_id = 0x7fd8cbcb0cf8
+from = ['0x7fd8cbcb1ef0']
+name = output
+constructor = [['spin_int', '22', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-57]
+self_id = 0x7fd8cbcad758
+from = ['0x7fd8cbcb1ef0']
+name = output
+constructor = [['spin_choice', 'LOW', ['HIGH', 'LOW']]]
+position = (0, 0)
+basename = choice-hl
+inside = []
+to = []
+nested = []
+
+[Block-58]
+self_id = 0x7fd8cbcaad40
+from = ['0x7fd8cbcb1ef0']
+name = linear
+constructor = [['label', 'digitalWrite'], ['syntax', '('], ['space'], ['syntax', ', '], ['space'], ['syntax', ')']]
+position = (749, 803)
+basename = digitalWrite
+inside = ['0x7fd8cbc9cf80', '0x7fd8cc04aef0']
+to = ['0x7fd8cac7a6c8']
+nested = []
+
+[Block-59]
+self_id = 0x7fd8cbc9cf80
+from = ['0x7fd8cbcaad40']
+name = output
+constructor = [['spin_int', '23', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-60]
+self_id = 0x7fd8cc04aef0
+from = ['0x7fd8cbcaad40']
+name = output
+constructor = [['spin_choice', 'HIGH', ['HIGH', 'LOW']]]
+position = (0, 0)
+basename = choice-hl
+inside = []
+to = []
+nested = []
+
+[Block-61]
+self_id = 0x7fd8cbca5998
+from = ['0x7fd8cac41290']
+name = linear
+constructor = [['label', 'digitalWrite'], ['syntax', '('], ['space'], ['syntax', ', '], ['space'], ['syntax', ')']]
+position = (749, 989)
+basename = digitalWrite
+inside = ['0x7fd8cbca4830', '0x7fd8cbc9f5f0']
+to = ['0x7fd8cac7a1b8']
+nested = []
+
+[Block-62]
+self_id = 0x7fd8cbca4830
+from = ['0x7fd8cbca5998']
+name = output
+constructor = [['spin_int', '23', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-63]
+self_id = 0x7fd8cbc9f5f0
+from = ['0x7fd8cbca5998']
+name = output
+constructor = [['spin_choice', 'LOW', ['HIGH', 'LOW']]]
+position = (0, 0)
+basename = choice-hl
+inside = []
+to = []
+nested = []
+
+[Block-64]
+self_id = 0x7fd8cac41290
+from = ['0x7fd8cbca6758']
+name = linear
+constructor = [['label', 'digitalWrite'], ['syntax', '('], ['space'], ['syntax', ', '], ['space'], ['syntax', ')']]
+position = (749, 950)
+basename = digitalWrite
+inside = ['0x7fd8cac41c68', '0x7fd8cac445a8']
+to = ['0x7fd8cbca5998']
+nested = []
+
+[Block-65]
+self_id = 0x7fd8cac41c68
+from = ['0x7fd8cac41290']
+name = output
+constructor = [['spin_int', '22', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-66]
+self_id = 0x7fd8cac445a8
+from = ['0x7fd8cac41290']
+name = output
+constructor = [['spin_choice', 'LOW', ['HIGH', 'LOW']]]
+position = (0, 0)
+basename = choice-hl
+inside = []
+to = []
+nested = []
+
+[Block-67]
+self_id = 0x7fd8cac44ea8
+from = ['0x7fd8cac5acf8']
+name = linear
+constructor = [['label', 'break']]
+position = (749, 323)
+basename = break_
+inside = []
+to = []
+nested = []
+
+[Block-68]
+self_id = 0x7fd8cac483f8
+from = ['0x7fd8cac551b8']
+name = linear
+constructor = [['label', 'break']]
+position = (749, 470)
+basename = break_
+inside = []
+to = []
+nested = []
+
+[Block-69]
+self_id = 0x7fd8cac48950
+from = ['0x7fd8cac801b8']
+name = linear
+constructor = [['label', 'break']]
+position = (749, 656)
+basename = break_
+inside = []
+to = []
+nested = []
+
+[Block-70]
+self_id = 0x7fd8cac48ea8
+from = ['0x7fd8cac742d8']
+name = linear
+constructor = [['label', 'servo.setMinimumPulse'], ['syntax', '('], ['decorator', 'SERVO='], ['space'], ['syntax', ', '], ['decorator', ' '], ['decorator', 'MICROSEC='], ['space'], ['syntax', ')']]
+position = (92, 394)
+basename = Servo_setMinimumPulse
+inside = ['0x7fd8cabcbb90', '0x7fd8cabcf4d0']
+to = ['0x7fd8cbcc7ab8']
+nested = []
+
+[Block-71]
+self_id = 0x7fd8cabcbb90
+from = ['0x7fd8cac48ea8']
+name = output
+constructor = [['spin_int', '0', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-72]
+self_id = 0x7fd8cabcf4d0
+from = ['0x7fd8cac48ea8']
+name = output
+constructor = [['spin_int', '700', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-73]
+self_id = 0x7fd8cabd2488
+from = ['0x7fd8cac82e18']
+name = linear
+constructor = [['label', 'servo.write'], ['syntax', '('], ['decorator', 'SERVO='], ['space'], ['syntax', ', '], ['decorator', ' '], ['decorator', 'DEGREES='], ['space'], ['syntax', ')']]
+position = (92, 589)
+basename = Servo_write
+inside = ['0x7fd8cabd6128', '0x7fd8cabd6a28']
+to = []
+nested = []
+
+[Block-74]
+self_id = 0x7fd8cabd6128
+from = ['0x7fd8cabd2488']
+name = output
+constructor = [['spin_int', '0', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-75]
+self_id = 0x7fd8cabd6a28
+from = ['0x7fd8cabd2488']
+name = output
+constructor = [['spin_int', 'centro', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
+[Block-76]
+self_id = 0x7fd8cabda320
+from = ['0x7fd8cac72758']
+name = linear
+constructor = [['edit', 'centro', None, (255, 255, 255)], ['label', '='], ['space']]
+position = (93, 109)
+basename = asign
+inside = ['0x7fd8cabdabd8']
+to = []
+nested = []
+
+[Block-77]
+self_id = 0x7fd8cabdabd8
+from = ['0x7fd8cabda320']
+name = output
+constructor = [['spin_int', '90', -100, 100]]
+position = (0, 0)
+basename = spin-int
+inside = []
+to = []
+nested = []
+
