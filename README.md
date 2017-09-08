@@ -18,21 +18,21 @@ Android App          http://ai2.appinventor.mit.edu/?galleryId=4613735615037440
 
 ![Tricycle Parts](pictures/parts.jpg?raw=true "Tricycle Parts")
 
-| Number |Quantity | Description | Descrição|
-|--------|---------|-------------|----------|
-|1       |    2    | whell        | Roda     |
-|2       |    1    | motor with reduction box| Motor com caixa de redução|
-|3       |    2    | plastic support (1)| Suporte de plástico (1)|
-|4       |    2    | spacer (1)| espaçador (1)|
-|5       |    3    | screw and nut | parafuso e porca|
-|6       |   18 cm  | aluminum rail | trilho de alumínio|
-|7       |   2 cm   | aluminum profile U-frame | cantoneira perfil U de alumínio |
-|8       |    2    | screw and nut | parafuso e porca|
-|9       |    1    | micro servo | micro servo |
-|10      |    1    | plastic fork (2)| garfo plástico (2)|
-|11      |    1    | whell with hole | Roda com buraco (3) |
-|12      |    1    | screw and nut | parafuso e porca|
-|13      |    1    | axis spacer | espaçador de eixo (4)|
+| Number |Quantity  | Size | Description | Descrição|
+|--------|----------|-------------|----------|
+|1       |    2     | 6.8x2.5 cm (DiameterxWidth)  |whell        | Roda     |
+|2       |    1     | 7x2x2 cm      |motor with reduction box| Motor com caixa de redução|
+|3       |    2     | 2x2.4x0.15 cm  |plastic support (1)| Suporte de plástico (1)|
+|4       |    2     | 1x0.5x0.15 cm |spacer (1)| espaçador (1)|
+|5       |    3     | 3x0.2 cm     |screw and nut | parafuso e porca|
+|6       |   18 cm  | 2,2x1.3 cm     |aluminum rail | trilho de alumínio|
+|7       |   2 cm   | 1.5x2.5cm     |aluminum profile U-frame | cantoneira perfil U de alumínio |
+|8       |    2     | 1x0.2 cm     |screw and nut | parafuso e porca|
+|9       |    1     | 3x1x3 cm     |micro servo | micro servo |
+|10      |    1     | 7x4 cm     |plastic fork (2)| garfo plástico (2)|
+|11      |    1     | 6.8x2.5 cm (DiameterxWidth)     |whell with hole | Roda com buraco (3) |
+|12      |    1     | 5x0.3 cm     |screw and nut | parafuso e porca|
+|13      |    1     | 0.7 and 0.1 cm     |axis spacer | espaçador de eixo (4)|
 
 
 
