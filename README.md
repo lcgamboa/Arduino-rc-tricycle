@@ -25,7 +25,7 @@ Android App          http://ai2.appinventor.mit.edu/?galleryId=4613735615037440
 |3       |    2     | 2x2.4x0.15 cm  |plastic support (1)| Suporte de plástico (1)|
 |4       |    2     | 1x0.5x0.15 cm |spacer (1)| espaçador (1)|
 |5       |    3     | 3x0.2 cm     |screw and nut | parafuso e porca|
-|6       |   18 cm  | 2,2x1.3 cm     |aluminum rail | trilho de alumínio|
+|6       |   18 cm  | 2.2x1.3 cm     |aluminum rail | trilho de alumínio|
 |7       |   2 cm   | 1.5x2.5cm     |aluminum profile U-frame | cantoneira perfil U de alumínio |
 |8       |    2     | 1x0.2 cm     |screw and nut | parafuso e porca|
 |9       |    1     | 3x1x3 cm     |micro servo | micro servo |
