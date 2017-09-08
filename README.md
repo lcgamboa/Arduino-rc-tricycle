@@ -18,8 +18,8 @@ Android App          http://ai2.appinventor.mit.edu/?galleryId=4613735615037440
 
 ![Tricycle Parts](pictures/parts.jpg?raw=true "Tricycle Parts")
 
-| Number |Quantity  | Size | Description | Descrição|
-|--------|----------|-------------|----------|
+| Number |Quantity  | Size        | Description | Descrição|
+|--------|----------|-------------|----------|-------------|
 |1       |    2     | 6.8x2.5 cm (DiameterxWidth)  |whell        | Roda     |
 |2       |    1     | 7x2x2 cm      |motor with reduction box| Motor com caixa de redução|
 |3       |    2     | 2x2.4x0.15 cm  |plastic support (1)| Suporte de plástico (1)|
