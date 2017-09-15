@@ -8,13 +8,15 @@
 //code for arduino uno
 
 #include <Servo.h>
+#include <VoltageReference.h>
 
 Servo myservo;  // create servo object to control a servo
+
+VoltageReference vBat;
 
 #define center 94 //angle to align center position
 
 void setup() {
-
   pinMode(10, OUTPUT); //Foward H bridge
   pinMode(11, OUTPUT); //Backward H bridge
   
@@ -23,8 +25,9 @@ void setup() {
 
   digitalWrite(10, LOW);
   digitalWrite(11, LOW);
-            
-  Serial.begin(19200); //Bluetooth connection
+
+  vBat.begin();          
+  Serial.begin(9600); //Bluetooth connection
 }
 
 void loop() {
@@ -55,6 +58,8 @@ void loop() {
        case 'q'://centro  -center
          myservo.write(center); 
          break; 
+       case 'b'://v battery
+         Serial.println(vBat.readVcc());  
        default:
          break; 
      }

@@ -39,6 +39,9 @@ void loop() {
             PORTDbits.RD1 = 0;
             PORTDbits.RD2 = 0;
             break;
+	case 'b':
+	    serial_tx_str("0000\n"); //Not implemented
+	    break;    
     }
     
 
